@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    printf("Tamanho em bytes de char: %lu\n", sizeof(char));
+    printf("Tamanho em bytes de int: %lu\n", sizeof(int));
+    printf("Tamanho em bytes de float: %lu\n", sizeof(float));
+    printf("Tamanho em bytes de double: %lu\n", sizeof(double));
+
+    return 0;
+}
